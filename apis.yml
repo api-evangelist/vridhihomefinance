@@ -1,8 +1,13 @@
 aid: vridhihomefinance
-name: Vridhihomefinance
-description: 'Vridhihomefinance is a company surfaced as a portfolio company of norwest-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a
-  lead awaiting the enrichment pipeline.'
+name: Vridhi Home Finance
+description: 'Vridhi Home Finance (Vridhi Finserv Home Finance Limited) is an affordable
+  housing finance company (HFC) headquartered in Bengaluru, India, founded in 2022. Operating
+  as a tech-enabled brick-and-mortar lender across tier-2 and tier-3 cities, it provides home
+  purchase loans, home construction loans, plot-and-construction loans, balance-transfer and
+  top-up loans, and loans against property to salaried and self-employed customers. The company
+  is backed by Norwest Venture Partners and Elevation Capital. It operates a public marketing
+  website, a customer service portal, a refer-and-earn portal, and an Android mobile app, but
+  publishes no public developer API, documentation, or machine-readable API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/vridhihomefinance/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +15,31 @@ x-backed-by:
 - norwest-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-sector: financial-services
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://www.vridhihomefinance.com/wp-content/uploads/2022/12/cropped-favicon-192x192.png
 tags:
 - Company
-- Unknown
+- Financial Services
+- Housing Finance
+- Home Loans
+- Mortgage
+- Lending
+- Fintech
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/vridhihomefinance-domain-security.yml
 - type: Website
-  url: https://vridhihomefinance.com
+  url: https://www.vridhihomefinance.com
+- type: Blog
+  url: https://www.vridhihomefinance.com/blog/
+- type: Support
+  url: https://www.vridhihomefinance.com/contact-us/
+- type: PrivacyPolicy
+  url: https://www.vridhihomefinance.com/privacy-policy-terms-and-conditions/
+- type: TermsOfService
+  url: https://www.vridhihomefinance.com/terms-conditions
+- type: Login
+  url: https://customerservice.vridhihomefinance.in/
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 1
+  pass: local-v1
